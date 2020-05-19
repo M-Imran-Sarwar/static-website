@@ -1,0 +1,98 @@
+body{ margin: 0px; background-color: rgb(240, 136, 62);}
+
+nav{ display: flex; align-items: center; background-color: white; position: sticky; top: 0;}
+
+#logo{ width: 200px; height: 100px; margin-left: 100px; margin-top: 5px;}
+
+.two{ margin-left: 380px;}
+
+.two-1{ padding: 6px 10px 6px 10px; font-weight: bold; border-radius: 5px; 
+        background-color: white; font-size: 15px; border-style: none; color: darkgreen;
+        cursor: pointer;}
+
+.two-1:hover{ background-color: green; color: white;}
+
+.two-1:focus{ background-color: green; color: white;}
+
+.suger{ background-color: lightgreen; width: 150px; text-align: center; margin: 50px auto 0px auto;
+       border-radius: 20px;}
+
+.suger h1{ padding: 5px;}
+
+.sweet-1 img{ width: 300px; height: 200px;}
+
+.sweet, .bake-1, .bbq{ display: flex; margin-top: 20px;}
+
+.sweet-1{ margin: auto;}
+
+.bake{ background-color: lightgreen; width: 300px; text-align: center; margin: 50px auto 0px auto;
+        border-radius: 20px;}
+
+.bake h1{ padding: 5px;}
+
+.baking img{ width: 300px; height: 200px;}
+
+.baking, .bar-1{ margin: auto;}
+
+.bar{ background-color: lightgreen; width: 150px; text-align: center; margin: 50px auto 0px auto;
+        border-radius: 20px;}
+
+.bar h1{ padding: 5px;}
+
+.bar-1 img{ width: 300px; height: 200px;}
+
+ footer{ background-color: darkgreen; margin-top: 50px; width: 100%; height: 80px; display: flex; 
+         color: white; font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.footer-1, .footer-3{ text-align: center; font-size: 16px; line-height: 10px; font-weight:; 
+             margin-top: 5px;}
+
+.footer-1{ padding-left: 130px;}
+
+.footer-2{ text-align: center; font-size: 18px; padding-top: 35px; padding-left: 200px;}
+
+.footer-3{ padding-left: 200px;}
+
+
+
+
+
+
+@media screen and (max-width:760px){
+        nav{ display: flex; flex-direction: column;}
+        #logo, .two{ margin: auto; align-items: center;}
+        #logo{ width: 150px; height: 80px;}
+        .two{ text-align: center; margin-top: 0px;}
+        .two-1{ padding: 3px 5px 3px 5px; font-size: 12px;}
+        .suger{ width: 120px; margin: 30px auto 0px auto;
+                border-radius: 10px;}
+         
+         .suger h1{ padding: 3px; font-size: 25px;}
+         
+         .sweet-1 img{ width: 100%; height: 150px;}
+         .sweet-1{ margin-top: 10px;}
+         .sweet, .bake-1, .bbq{ display: flex; flex-direction: column; margin-top: 0px;}
+         
+         .bake{ width: 230px; margin: 30px auto 0px auto;
+                 border-radius: 10px;}
+         
+         .bake h1{ padding: 3px; font-size: 25px;}
+         
+         .baking img{ width:100%; height: 150px;}
+         .baking{ margin-top: 10px;}
+         
+         .bar{ width: 120px; margin: 30px auto 0px auto;
+                 border-radius: 10px;}
+         
+         .bar h1{ padding: 3px; font-size: 25px;}
+         
+         .bar-1 img{ width: 100%; height: 150px;}
+         .bar-1{ margin-top: 10px;}
+
+        footer{ height: 155px; display: flex; flex-direction: column;}
+        .footer-1, .footer-3{font-size: 12px; line-height: 8px; text-align: center;}
+        .footer-1{ padding-left: 0px;}
+        .footer-2{ font-size: 12px; padding-top: 20px; padding-left: 0px; text-align: center;}
+        .footer-3{ padding-left: 0px;}
+
+}
